@@ -1,6 +1,8 @@
 # Rock-5T-DTB:
 This repo provides a device tree blob for the Radxa Rock 5T. This is useful when you want to access the additional ethernet port, wifi and bluetooth and possibly other peripherals for the rock 5t when using the 5b plus image from https://joshua-riek.github.io/ubuntu-rockchip-download/ . This is not a valid solution but a handy hack if you don't like or want to compile the linux kernel, u-boot and rootfs yourself. 
 
+Note: Tested only on ubuntu-24.04 ( noble ) . It most probably works on jammy as well, but hasn't been tested on it yet.
+
 # Prerequisites:
 1. Rock 5T
 2. Ubuntu for the Rock 5B Plus installed on the Rock 5T from this link: https://joshua-riek.github.io/ubuntu-rockchip-download/
